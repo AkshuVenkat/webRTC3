@@ -1,0 +1,262 @@
+* {
+	padding: 0;
+	margin: 0;
+}
+
+body {
+	background-image:url('../img/balloons.jpg');
+	color:#667073;
+	font: 16px/1.3 'Arial',sans-serif;
+}
+.banner {
+	height: 70px;
+	background-color: white;
+	margin-bottom: 200px;
+}
+
+.bannertext {
+	text-align:center;
+	padding-top: 15px;
+	font-family: 'Tangerine',serif;
+	font-weight: bold;
+	color:#ff99ff;
+	font-size:25px;
+}
+
+.connect {
+	text-align:center;
+	display: block;
+	margin:0px auto;
+	width: 300px;
+	height: 150px;
+	background-color: white;
+	border-radius: 3px;
+	box-shadow:0px 3px 3px #e3e4e6;
+	color: #637277;
+}
+.connect h3 {
+	color: #ff99ff;
+	padding-top: 10px;
+}
+
+
+#yourName {
+	float:center;
+	padding-left:10px;
+	width: 150px;
+	height: 30px;
+	border-radius: 3px;
+	box-shadow:0px 3px 3px #e3e4e6;
+	background-color: #f0f1f3;
+	border: 1px solid #d1d1d1;
+	border-radius: 3px;
+	box-shadow:0px 3px 3px #e3e4e6;
+	margin-bottom:20px;
+	overflow: hidden;
+}
+#yourEnter {
+	float:center;
+	width: 110px;
+	height: 40px;
+	text-align:center;
+	background-color: #ff99ff;
+	border: none;
+	box-shadow: 3px 3px 3px #efedee;
+	border-radius: 2px;
+	color:white;
+	font-weight: bold;
+	font-size: 15px;
+}
+.join {
+	text-align:center;
+	display: block;
+	margin:0px auto;
+	width: 300px;
+	height: 180px;
+	background-color: #ffffff;
+	border-radius: 3px;
+	box-shadow:0px 3px 3px #e3e4e6;
+	color: #637277;
+}
+.join h2 {
+	text-align: :center;
+	color: #ff99ff;
+	padding-top: 10px;
+	width: 300px;
+	overflow: hidden;
+}
+
+
+#hisName {
+	float:center;
+	padding-left:10px;
+	width: 150px;
+	height: 30px;
+	border-radius: 3px;
+	box-shadow:0px 3px 3px #e3e4e6;
+	background-color: #f0f1f3;
+	border: 1px solid #d1d1d1;
+	border-radius: 3px;
+	box-shadow:0px 3px 3px #e3e4e6;
+	margin-bottom:20px;
+}
+#hisEnter {
+	float:center;
+	width: 110px;
+	height: 40px;
+	text-align:center;
+	background-color: #ff99ff;
+	border: none;
+	box-shadow: 3px 3px 3px #efedee;
+	border-radius: 2px;
+	color:white;
+	font-weight: bold;
+	font-size: 15px;
+}
+.invite {
+	text-align:center;
+	display: block;
+	margin:0px auto;
+	width: 300px;
+	height: 100px;
+	background-color: #ffffff;
+	border-radius: 3px;
+	box-shadow:0px 3px 3px #e3e4e6;
+	color: #ff99ff;
+}
+.invite h2 {
+	padding-top: 10px;
+}
+video {
+	display: none;
+    width:  320px;
+    height:  240px;
+    border:  1px solid;
+}
+
+.chats {
+
+	display:block;
+	list-style-type: none;
+	overflow: scroll;
+	background: none repeat scroll 0 0 #F9F9F9;
+	border: 1px solid #CCCCCC;
+	border-radius: 5px 5px 0px 0px;
+	height: 400px;
+	letter-spacing: 1px;
+	margin-bottom: 0px;
+	padding: 5px 10px;
+	width: 300px;
+	
+}
+
+.me {
+	clear:both;
+	float:left;
+
+}
+
+.you {
+	clear:both;
+	float:right;
+
+}
+.msg {
+
+	clear:both;
+	float:none;
+	margin:auto;
+	width:60%;
+	
+}
+.chats .msg p {
+
+	text-align:center;
+	line-height: 1.4;
+	word-wrap: break-word;
+}
+.chats .me p {
+	text-align:left;
+	float: left;
+	line-height: 1.4;
+	word-wrap: break-word;
+}
+
+.chats .you p {
+	text-align:left;
+	float: left;
+	line-height: 1.4;
+	word-wrap: break-word;
+}
+
+#chatform {
+	background-color: white;
+	bottom: 0px;
+}
+
+#message {
+	float:left;
+	background: none repeat scroll 0 0 #F9F9F9;
+	border: 1px solid #CCCCCC;
+	border-radius: 0px 0px 0px 0px;
+	height: 40px;
+	letter-spacing: 1px;
+	padding: 5px 10px;
+	width: 250px;
+	font:inherit;
+	color:inherit;
+}
+.button {
+
+	box-shadow:inset 0px 1px 0px 0px #ffffff;
+	background-color:#ededed;
+  	border-radius:6px;
+  	border:1px solid #dcdcdc;
+  	display:inline-block;
+  	color:#777777;
+  	font-family:arial;
+  	font-size:15px;
+  	font-weight:bold;
+  	padding:6px 24px;
+}
+
+.button:hover {
+  background-color:#dfdfdf;
+}
+.button:active {
+  position: relative;
+  top:1px;
+}
+
+#submit {
+	float:right;
+	text-align:center;
+	background-color: #ff99ff;
+	color:white;
+	height: 50px;
+	font-weight: bold;
+	font-size: 15px;
+	outline: none;
+	cursor:pointer;
+}
+
+.connect {
+	display: none;
+}
+
+.join {
+	display: none;
+}
+
+.invite {
+	display:none;
+}
+
+
+.chatscreen{
+	display:none;
+	position: fixed;
+	right: 20px;
+	bottom: 0px;
+	z-index: 1;
+}
