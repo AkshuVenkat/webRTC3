@@ -116,13 +116,12 @@ $(function(){
     		if(name === data.users[0]) {
 
     			showMessage("youStartedChatWithNoMessages",data);
-                signaling_socket.emit('display',{channel : id});
     		}
     		else {
 
     			showMessage("heStartedChatWithNoMessages",data);
-                signaling_socket.emit('display',{channel : id});
     		}
+            signaling_socket.emit('display',{channel : id});
     	}
     });
 
